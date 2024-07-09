@@ -1,0 +1,54 @@
+{
+    "name": "VisionOSInputs",
+    "maps": [
+        {
+            "name": "WindowedApp",
+            "id": "1f381d9f-833f-4189-b46c-bb577229bdf8",
+            "actions": [
+                {
+                    "name": "TouchTap",
+                    "type": "Button",
+                    "id": "68b7b6a0-4f23-402c-af61-814137b092f1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchPosition",
+                    "type": "Value",
+                    "id": "07b50786-e5d9-4a7d-871f-60ebaab564a6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "753057b3-2b8b-4be2-94a5-8960cbc1102c",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "094f80b6-4c59-43b4-9d71-18e6badc7c9f",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
